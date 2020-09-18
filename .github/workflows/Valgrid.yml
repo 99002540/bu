@@ -20,5 +20,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
       run: |
-        make test -C even.out
-        valgrind .even.out
+        make test -C EVEN.out
+        valgrind .EVEN.out
