@@ -21,4 +21,4 @@ jobs:
     - name: make test
       run: |
         make test 
-        valgrind
+        valgrind .even.out
